@@ -1,0 +1,811 @@
+<?xml version="1.0" standalone="no"?>
+<ItemLookupResponse>
+  <OperationRequest>
+    <RequestId>84e41f67-0cd5-41da-9392-06627f9b0e21</RequestId>
+    <Arguments>
+      <Argument Name="Operation" Value="ItemLookup"/>
+      <Argument Name="Service" Value="AWSECommerceService"/>
+      <Argument Name="ItemId" Value="9780446563048"/>
+      <Argument Name="IdType" Value="ISBN"/>
+      <Argument Name="AWSAccessKeyId" Value="00W008DTZY43XJDCCKR2"/>
+      <Argument Name="Timestamp" Value="2011-07-06T06:40:19Z"/>
+      <Argument Name="Signature" Value="eQUawTZDH/eXHgDlHY2Lf18nOK3WmQ9mdmhunZ+3CN0="/>
+      <Argument Name="ResponseGroup" Value="Large,Reviews,Similarities"/>
+      <Argument Name="SearchIndex" Value="Books"/>
+      <Argument Name="Version" Value="2010-10-01"/>
+    </Arguments>
+    <RequestProcessingTime>0.0988460000000000</RequestProcessingTime>
+  </OperationRequest>
+  <Items>
+    <Request>
+      <IsValid>True</IsValid>
+      <ItemLookupRequest>
+        <Condition>New</Condition>
+        <DeliveryMethod>Ship</DeliveryMethod>
+        <IdType>ISBN</IdType>
+        <MerchantId>Amazon</MerchantId>
+        <OfferPage>1</OfferPage>
+        <ItemId>9780446563048</ItemId>
+        <ResponseGroup>Large</ResponseGroup>
+        <ResponseGroup>Reviews</ResponseGroup>
+        <ResponseGroup>Similarities</ResponseGroup>
+        <ReviewPage>1</ReviewPage>
+        <ReviewSort>-SubmissionDate</ReviewSort>
+        <SearchIndex>Books</SearchIndex>
+        <VariationPage>All</VariationPage>
+      </ItemLookupRequest>
+    </Request>
+    <Item>
+      <ASIN>0446563048</ASIN>
+      <DetailPageURL>http://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose/dp/0446563048%3FSubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0446563048</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose/dp/tech-data/0446563048%3FSubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0446563048</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0446563048%26SubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0446563048</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0446563048%26SubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0446563048</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0446563048%26SubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0446563048</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/0446563048%3FSubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0446563048</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/0446563048%3FSubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0446563048</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/0446563048%3FSubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0446563048</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>407</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41uPy8BcJYL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">49</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41uPy8BcJYL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">104</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41uPy8BcJYL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">326</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41uPy8BcJYL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41uPy8BcJYL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">49</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41uPy8BcJYL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">49</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41uPy8BcJYL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">72</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41uPy8BcJYL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">104</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41uPy8BcJYL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">326</Width>
+          </LargeImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Ls73bVhCL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Ls73bVhCL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">49</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Ls73bVhCL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">49</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Ls73bVhCL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">72</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Ls73bVhCL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">105</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Ls73bVhCL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">329</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Tony Hsieh</Author>
+        <Binding>Hardcover</Binding>
+        <DeweyDecimalNumber>658.409</DeweyDecimalNumber>
+        <EAN>9780446563048</EAN>
+        <EANList>
+          <EANListElement>9780446563048</EANListElement>
+        </EANList>
+        <Edition>1</Edition>
+        <Feature>ISBN13: 9780446563048</Feature>
+        <Feature>Condition: New</Feature>
+        <Feature>Notes: BRAND NEW FROM PUBLISHER! BUY WITH CONFIDENCE, Over one million books sold! 98% Positive feedback. Compare our books, prices and service to the competition. 100% Satisfaction Guaranteed</Feature>
+        <ISBN>0446563048</ISBN>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">925</Height>
+          <Length Units="hundredths-inches">650</Length>
+          <Weight Units="hundredths-pounds">103</Weight>
+          <Width Units="hundredths-inches">100</Width>
+        </ItemDimensions>
+        <Label>Business Plus</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2399</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$23.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Business Plus</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>253</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">110</Height>
+          <Length Units="hundredths-inches">900</Length>
+          <Weight Units="hundredths-pounds">102</Weight>
+          <Width Units="hundredths-inches">620</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2010-06-07</PublicationDate>
+        <Publisher>Business Plus</Publisher>
+        <SKU>G0446563048I5N01</SKU>
+        <Studio>Business Plus</Studio>
+        <Title>Delivering Happiness: A Path to Profits, Passion, and Purpose</Title>
+        <TradeInValue>
+          <Amount>253</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.53</FormattedPrice>
+        </TradeInValue>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>925</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.25</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>539</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.39</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>1919</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.19</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>87</TotalNew>
+        <TotalUsed>74</TotalUsed>
+        <TotalCollectible>3</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>HJLvTIULoi3NqFIbuqmKvN3Rij7hzxg4%2Bh%2BYzoHVkYNCxWCvl3TrMvgCnFLAtEnqMIRnASpxudSks7esK1RnQcsv8oyZl1bCUYYd99bF%2FQRj0poioKNTWw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1430</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$14.30</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>969</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$9.69</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>40</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+            <IsFulfilledByAmazon>1</IsFulfilledByAmazon>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=00W008DTZY43XJDCCKR2&amp;alinkCode=xm2&amp;asin=0446563048&amp;atag=ws&amp;exp=2011-07-07T06%3A40%3A20Z&amp;v=2&amp;sig=A5l%2BnFog7fX1LtSaPHyHZJ0wmWs9F8HYBafYR4m0Uio%3D</IFrameURL>
+      </CustomerReviews>
+      <EditorialReviews>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>In his first book, Tony Hsieh - the hip, iconoclastic, and widely-admired CEO of Zappos, the online shoe retailer - - explains how he created a corporate culture with a commitment to service that aims to improve the lives of its employees, customers, vendors, and backers. Using anecdotes and stories from his own life experiences, and from other companies, Hsieh provides concrete ways that companies can achieve unprecedented success. He details many of the unique practices at Zappos, such as their philosophy of allocating marketing money into the customer experience, the importance of Zappos's Core Values ("Deliver WOW through Service"), and the reason why Zappos's number one priority is company culture and his belief that once you get the culture right, everything else - great customer service, long-term branding - will happen on its own. Finally, Delivering Happiness explains how Zappos employees actually apply the Core Values to improving their lives outside of work, proving that creating happiness and record results go hand-in-hand.</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+        <EditorialReview>
+          <Source>Amazon.com Review</Source>
+          <Content>&lt;p&gt;The visionary CEO of Zappos explains how an emphasis on corporate culture can lead to unprecedented     success.&lt;/p&gt;    &lt;p&gt;Pay new employees $2000 to quit. Make customer service the entire company, not just a department. Focus     on company culture as the #1 priority. Apply research from the science of happiness to running a business.     Help employees grow both personally and professionally. Seek to change the world. Oh, and make money     too.&lt;/p&gt;    &lt;p&gt;Sound crazy? It's all standard operating procedure at Zappos.com, the online retailer that's doing over     $1 billion in gross merchandise sales every year.&lt;/p&gt;    &lt;p&gt;In 1999, Tony Hsieh (pronounced Shay) sold LinkExchange, the company he co-founded, to Microsoft for $265     million. He then joined Zappos as an adviser and investor, and eventually became CEO.&lt;/p&gt;    &lt;p&gt;In 2009, Zappos was listed as one of Fortune magazine's top 25 companies to work for, and was acquired by     Amazon later that year in a deal valued at over $1.2 billion on the day of closing.&lt;/p&gt;    &lt;p&gt;In his first book, Tony shares the different business lessons he learned in life, from a lemonade stand     and pizza business through LinkExchange, Zappos, and more. Ultimately, he shows how using happiness as a     framework can produce profits, passion, and purpose both in business and in life. (edited by author)&lt;/p&gt;      &lt;p&gt;  &lt;span class="h1"&gt;&lt;strong&gt;Amazon Exclusive Author Q&amp;A with Tony Hsieh, Author of &lt;em&gt;&lt;i&gt;Delivering     Happiness&lt;/i&gt; &lt;/em&gt; &lt;/strong&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; &lt;/p&gt;      &lt;/strong&gt;   &lt;p&gt;&lt;img src="http://g-ecx.images-amazon.com/images/G/01/littlEMS/Tony_Hsieh._V191739492_.jpg"     align="right" border="0"&gt;&lt;/p&gt;          &lt;b&gt;1. In the book you say, "I've been an entrepreneur for most of my life." Do you think people are born     entrepreneurs or do they become them?&lt;/b&gt;    &lt;p&gt;I think usually by the time you're 12 years old, you either have the entrepreneurial spirit or you don't.     I would describe the entrepeneurial spirit as a combination of creativity and optimisim.&lt;/p&gt;     &lt;b&gt;2. Could you name one particular experience that inspired you to create a company devoted to customer     happiness?&lt;/b&gt;    &lt;p&gt;For me, it's really been driven by daily examples of bad customer service in my everyday personal     life.&lt;/P&gt;    &lt;b&gt;3. Was the worm farm really the invaluable catalyst for forming your business and life philosophy?&lt;/b&gt;    &lt;p&gt;My parents tell me that as a kid I was always trying to come up with different business ideas. The idea     of starting a worm farm is my earliest memory of a business idea.&lt;/p&gt;    &lt;b&gt;4. You say that you have always been an avid book reader. What are your favorite books? Which     non-business book helped you grow professionally?&lt;/b&gt;    &lt;p&gt;Business books: &lt;em&gt;Good     to Great&lt;/em&gt;,   &lt;em&gt;Peak&lt;/em&gt;,    &lt;em&gt;Tribal     Leadership&lt;/em&gt;      &lt;em&gt;Made to Stick&lt;/em&gt;     &lt;/p&gt;      &lt;p&gt;Non-business books:   &lt;em&gt;The Happiness     Hypothesis&lt;/em&gt;     &lt;em&gt;Comedy Writing     Secrets&lt;/em&gt;     &lt;em&gt;The     Game&lt;/em&gt;&lt;/p&gt;    &lt;b&gt;5. What is the ratio between rebelling against conventional wisdom and sticking to the good old truths in     building a successful business?&lt;/b&gt;    &lt;p&gt;1:10&lt;/p&gt;    &lt;b&gt;6. You describe your way to happiness starting with profits, then going through passion and finally     getting to purpose. Is that the only path to business happiness?&lt;/b&gt;    &lt;p&gt;No, that was just the path that I happened to take. Part of the purpose of the book is to help other     entrepreneurs and business owners shortcut the process and encourage them to go straight to combining     profits, passion, and purpose.&lt;/p&gt;    &lt;b&gt; 7. You seem to have taken risks with business ideas a lot while growing up. How do you recognize a risk     that you shouldn't take?&lt;/b&gt;    &lt;p&gt;I think it just comes down to really breaking down what the worst case scenario actually is. For most of     us, we're lucky to live in a time and in a society where we aren't actually ever in danger of dying from     starvation or lack of shelter. Most of us have friends whose couches we can crash on in the worst case     scenario, so any "risk" we take in starting a company isn't actually that big a risk.&lt;/p&gt;     &lt;hr size="1"/&gt;                  </Content>
+          <IsLinkSuppressed>1</IsLinkSuppressed>
+        </EditorialReview>
+      </EditorialReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>0061251321</ASIN>
+          <Title>Tribal Leadership: Leveraging Natural Groups to Build a Thriving Organization</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0814415385</ASIN>
+          <Title>Exceptional Service, Exceptional Profit: The Secrets of Building a Five-Star Customer Service Organization</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0787988618</ASIN>
+          <Title>Peak: How Great Companies Get Their Mojo from Maslow (J-B US non-Franchise Leadership)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0066620996</ASIN>
+          <Title>Good to Great: Why Some Companies Make the Leap... and Others Don't</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0307463745</ASIN>
+          <Title>Rework</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>2635</BrowseNodeId>
+          <Name>Customer Service</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>2624</BrowseNodeId>
+              <Name>Industries &amp; Professions</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3</BrowseNodeId>
+                  <Name>Business &amp; Investing</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>2683</BrowseNodeId>
+          <Name>Management</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>2675</BrowseNodeId>
+              <Name>Management &amp; Leadership</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3</BrowseNodeId>
+                  <Name>Business &amp; Investing</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>2560</BrowseNodeId>
+          <Name>Communications</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>355562011</BrowseNodeId>
+              <Name>Skills</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3</BrowseNodeId>
+                  <Name>Business &amp; Investing</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>1288264011</BrowseNodeId>
+          <Name>All product</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>1267878011</BrowseNodeId>
+              <Name>Products</Name>
+              <IsCategoryRoot>1</IsCategoryRoot>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1267877011</BrowseNodeId>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>1294449011</BrowseNodeId>
+          <Name>Books</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>1267878011</BrowseNodeId>
+              <Name>Products</Name>
+              <IsCategoryRoot>1</IsCategoryRoot>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1267877011</BrowseNodeId>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>1297808011</BrowseNodeId>
+          <Name>Books</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>1294321011</BrowseNodeId>
+              <Name>Just arrived</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1267879011</BrowseNodeId>
+                  <Name>Special Features</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1267877011</BrowseNodeId>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>B003JTHXN6</ASIN>
+      <DetailPageURL>http://www.amazon.com/Delivering-Happiness-Profits-Passion-ebook/dp/B003JTHXN6%3FSubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB003JTHXN6</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Delivering-Happiness-Profits-Passion-ebook/dp/tech-data/B003JTHXN6%3FSubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JTHXN6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB003JTHXN6%26SubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JTHXN6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB003JTHXN6%26SubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JTHXN6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB003JTHXN6%26SubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JTHXN6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B003JTHXN6%3FSubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JTHXN6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B003JTHXN6%3FSubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JTHXN6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B003JTHXN6%3FSubscriptionId%3D00W008DTZY43XJDCCKR2%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JTHXN6</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>2721</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41bweHoYw1L._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">50</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41bweHoYw1L._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">106</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41bweHoYw1L.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">332</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bweHoYw1L._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bweHoYw1L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bweHoYw1L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bweHoYw1L._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">73</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bweHoYw1L._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">106</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bweHoYw1L.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">332</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Address>
+          <Country>us</Country>
+        </Address>
+        <Author>Tony Hsieh</Author>
+        <Binding>Kindle Edition</Binding>
+        <Country>us</Country>
+        <DeweyDecimalNumber>658.409</DeweyDecimalNumber>
+        <Edition>1</Edition>
+        <EISBN>9780446576314</EISBN>
+        <Format>Kindle eBook</Format>
+        <Label>Business Plus</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1099</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Business Plus</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>253</NumberOfPages>
+        <ProductGroup>eBooks</ProductGroup>
+        <ProductTypeName>ABIS_EBOOKS</ProductTypeName>
+        <PublicationDate>2010-05-20</PublicationDate>
+        <Publisher>Business Plus</Publisher>
+        <ReleaseDate>2010-06-07</ReleaseDate>
+        <Studio>Business Plus</Studio>
+        <Title>Delivering Happiness: A Path to Profits, Passion, and Purpose</Title>
+      </ItemAttributes>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=00W008DTZY43XJDCCKR2&amp;alinkCode=xm2&amp;asin=B003JTHXN6&amp;atag=ws&amp;exp=2011-07-07T06%3A40%3A20Z&amp;v=2&amp;sig=ihtme798no30Zny00QqHIeV4lW9xL6Ad80MxZkpzxy8%3D</IFrameURL>
+      </CustomerReviews>
+      <EditorialReviews>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>In his first book, Tony Hsieh - the hip, iconoclastic, and widely-admired CEO of Zappos, the online shoe retailer - - explains how he created a corporate culture with a commitment to service that aims to improve the lives of its employees, customers, vendors, and backers. Using anecdotes and stories from his own life experiences, and from other companies, Hsieh provides concrete ways that companies can achieve unprecedented success.  He details many of the unique practices at Zappos, such as their philosophy of allocating marketing money into the customer experience, the importance of Zappos's Core Values ("Deliver WOW through Service"), and the reason why Zappos's number one priority is company culture and his belief that once you get the culture right, everything else - great customer service, long-term branding - will happen on its own. Finally, Delivering Happiness explains how Zappos employees actually apply the Core Values to improving their lives outside of work, proving that creating happiness and record results go hand-in-hand.</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+        <EditorialReview>
+          <Source>Amazon.com Review</Source>
+          <Content>&lt;p&gt;The visionary CEO of Zappos explains how an emphasis on corporate culture can lead to unprecedented     success.&lt;/p&gt;    &lt;p&gt;Pay new employees $2000 to quit. Make customer service the entire company, not just a department. Focus     on company culture as the #1 priority. Apply research from the science of happiness to running a business.     Help employees grow both personally and professionally. Seek to change the world. Oh, and make money     too.&lt;/p&gt;    &lt;p&gt;Sound crazy? It's all standard operating procedure at Zappos.com, the online retailer that's doing over     $1 billion in gross merchandise sales every year.&lt;/p&gt;    &lt;p&gt;In 1999, Tony Hsieh (pronounced Shay) sold LinkExchange, the company he co-founded, to Microsoft for $265     million. He then joined Zappos as an adviser and investor, and eventually became CEO.&lt;/p&gt;    &lt;p&gt;In 2009, Zappos was listed as one of Fortune magazine's top 25 companies to work for, and was acquired by     Amazon later that year in a deal valued at over $1.2 billion on the day of closing.&lt;/p&gt;    &lt;p&gt;In his first book, Tony shares the different business lessons he learned in life, from a lemonade stand     and pizza business through LinkExchange, Zappos, and more. Ultimately, he shows how using happiness as a     framework can produce profits, passion, and purpose both in business and in life. (edited by author)&lt;/p&gt;      &lt;p&gt;  &lt;span class="h1"&gt;&lt;strong&gt;Amazon Exclusive Author Q&amp;A with Tony Hsieh, Author of &lt;em&gt;&lt;i&gt;Delivering     Happiness&lt;/i&gt; &lt;/em&gt; &lt;/strong&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; &lt;/p&gt;      &lt;/strong&gt;   &lt;p&gt;&lt;img src="http://g-ecx.images-amazon.com/images/G/01/littlEMS/Tony_Hsieh._V191739492_.jpg"     align="right" border="0"&gt;&lt;/p&gt;          &lt;b&gt;1. In the book you say, "I've been an entrepreneur for most of my life." Do you think people are born     entrepreneurs or do they become them?&lt;/b&gt;    &lt;p&gt;I think usually by the time you're 12 years old, you either have the entrepreneurial spirit or you don't.     I would describe the entrepeneurial spirit as a combination of creativity and optimisim.&lt;/p&gt;     &lt;b&gt;2. Could you name one particular experience that inspired you to create a company devoted to customer     happiness?&lt;/b&gt;    &lt;p&gt;For me, it's really been driven by daily examples of bad customer service in my everyday personal     life.&lt;/P&gt;    &lt;b&gt;3. Was the worm farm really the invaluable catalyst for forming your business and life philosophy?&lt;/b&gt;    &lt;p&gt;My parents tell me that as a kid I was always trying to come up with different business ideas. The idea     of starting a worm farm is my earliest memory of a business idea.&lt;/p&gt;    &lt;b&gt;4. You say that you have always been an avid book reader. What are your favorite books? Which     non-business book helped you grow professionally?&lt;/b&gt;    &lt;p&gt;Business books: &lt;em&gt;Good     to Great&lt;/em&gt;,   &lt;em&gt;Peak&lt;/em&gt;,    &lt;em&gt;Tribal     Leadership&lt;/em&gt;      &lt;em&gt;Made to Stick&lt;/em&gt;     &lt;/p&gt;      &lt;p&gt;Non-business books:   &lt;em&gt;The Happiness     Hypothesis&lt;/em&gt;     &lt;em&gt;Comedy Writing     Secrets&lt;/em&gt;     &lt;em&gt;The     Game&lt;/em&gt;&lt;/p&gt;    &lt;b&gt;5. What is the ratio between rebelling against conventional wisdom and sticking to the good old truths in     building a successful business?&lt;/b&gt;    &lt;p&gt;1:10&lt;/p&gt;    &lt;b&gt;6. You describe your way to happiness starting with profits, then going through passion and finally     getting to purpose. Is that the only path to business happiness?&lt;/b&gt;    &lt;p&gt;No, that was just the path that I happened to take. Part of the purpose of the book is to help other     entrepreneurs and business owners shortcut the process and encourage them to go straight to combining     profits, passion, and purpose.&lt;/p&gt;    &lt;b&gt; 7. You seem to have taken risks with business ideas a lot while growing up. How do you recognize a risk     that you shouldn't take?&lt;/b&gt;    &lt;p&gt;I think it just comes down to really breaking down what the worst case scenario actually is. For most of     us, we're lucky to live in a time and in a society where we aren't actually ever in danger of dying from     starvation or lack of shelter. Most of us have friends whose couches we can crash on in the worst case     scenario, so any "risk" we take in starting a company isn't actually that big a risk.&lt;/p&gt;     &lt;hr size="1"/&gt;                  </Content>
+          <IsLinkSuppressed>1</IsLinkSuppressed>
+        </EditorialReview>
+      </EditorialReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>B0012GTZFC</ASIN>
+          <Title>Tribal Leadership</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B003E749TE</ASIN>
+          <Title>The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B002MUAJ2A</ASIN>
+          <Title>Rework</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B004OEIQEA</ASIN>
+          <Title>Onward</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B0042FZVQ2</ASIN>
+          <Title>The Thank You Economy</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>2635</BrowseNodeId>
+          <Name>Customer Service</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>2624</BrowseNodeId>
+              <Name>Industries &amp; Professions</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3</BrowseNodeId>
+                  <Name>Business &amp; Investing</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>2683</BrowseNodeId>
+          <Name>Management</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>2675</BrowseNodeId>
+              <Name>Management &amp; Leadership</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3</BrowseNodeId>
+                  <Name>Business &amp; Investing</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>2560</BrowseNodeId>
+          <Name>Communications</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>355562011</BrowseNodeId>
+              <Name>Skills</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3</BrowseNodeId>
+                  <Name>Business &amp; Investing</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>154831011</BrowseNodeId>
+          <Name>Communication</Name>
+          <Children>
+            <BrowseNode>
+              <BrowseNodeId>154833011</BrowseNodeId>
+              <Name>Meetings &amp; Presentations</Name>
+            </BrowseNode>
+          </Children>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>154830011</BrowseNodeId>
+              <Name>Business Life</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>154821011</BrowseNodeId>
+                  <Name>Business &amp; Investing</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>154606011</BrowseNodeId>
+                      <Name>Kindle eBooks</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>133141011</BrowseNodeId>
+                          <Name>Categories</Name>
+                          <IsCategoryRoot>1</IsCategoryRoot>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>133140011</BrowseNodeId>
+                              <Name>Kindle Store</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>154894011</BrowseNodeId>
+          <Name>Customer Service</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>154879011</BrowseNodeId>
+              <Name>Industries &amp; Professions</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>154821011</BrowseNodeId>
+                  <Name>Business &amp; Investing</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>154606011</BrowseNodeId>
+                      <Name>Kindle eBooks</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>133141011</BrowseNodeId>
+                          <Name>Categories</Name>
+                          <IsCategoryRoot>1</IsCategoryRoot>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>133140011</BrowseNodeId>
+                              <Name>Kindle Store</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>154954011</BrowseNodeId>
+          <Name>Management</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>154949011</BrowseNodeId>
+              <Name>Management &amp; Leadership</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>154821011</BrowseNodeId>
+                  <Name>Business &amp; Investing</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>154606011</BrowseNodeId>
+                      <Name>Kindle eBooks</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>133141011</BrowseNodeId>
+                          <Name>Categories</Name>
+                          <IsCategoryRoot>1</IsCategoryRoot>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>133140011</BrowseNodeId>
+                              <Name>Kindle Store</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+  </Items>
+</ItemLookupResponse>

@@ -1,0 +1,16 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    amazon-ecs (2.0.0)
+      nokogiri (>= 1.4.0)
+      ruby-hmac (>= 0.3.2)
+    htmlentities (4.3.0)
+    nokogiri (1.5.0)
+    ruby-hmac (0.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  amazon-ecs
+  htmlentities
