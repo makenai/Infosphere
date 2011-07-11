@@ -2,4 +2,5 @@
 source "http://rubygems.org"
 
 gem "amazon-ecs"
-gem "htmlentities"
+gem "fastercsv"
+gem "json"

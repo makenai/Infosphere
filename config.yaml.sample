@@ -1,3 +1,5 @@
 ---
 AWS_KEY: YOUR_KEY_HERE 
 AWS_SECRET: YOUR_SECRET_HERE
+SPREADSHEET_URL: https://spreadsheets.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0AiGJ08IIrqw0dGZ2aUJNdDBqZVZYb210VFVndEdEM2c&output=csv
+GOODREADS_KEY: uh83a6BVPTdAV5HXPGuVw

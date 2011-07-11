@@ -4,7 +4,8 @@ GEM
     amazon-ecs (2.0.0)
       nokogiri (>= 1.4.0)
       ruby-hmac (>= 0.3.2)
-    htmlentities (4.3.0)
+    fastercsv (1.5.4)
+    json (1.5.3)
     nokogiri (1.5.0)
     ruby-hmac (0.4.0)
 
@@ -13,4 +14,5 @@ PLATFORMS
 
 DEPENDENCIES
   amazon-ecs
-  htmlentities
+  fastercsv
+  json
