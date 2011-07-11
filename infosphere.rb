@@ -27,6 +27,7 @@ class Infosphere
   def initialize
   end
   
+  # Get the list of user recommendations from a google spreadsheet attached to a form
   def get_user_recommendations
     recommendations = []
     csv = open( CONFIG['SPREADSHEET_URL'] ).read
@@ -71,7 +72,7 @@ class Infosphere
   end  
   
   # Get products from Amazon API given a node id
-  def get_node( node_id, pages=1 )
+  def get_node( node_id, pages=2 )
     items = []
     1.upto( pages ).each do |item_page|
       response = Amazon::Ecs.item_search( nil, :browse_node => node_id, :search_index => 'Books', 
@@ -197,7 +198,9 @@ if __FILE__ == $0
   good_books = []
   bad_books  = []
   books.each do |book|
-    if book.has_rating? && book.average_rating.to_f > 3.5
+    if book.has_rating? && 
+       book.average_rating.to_f > 3.5 &&
+       book.reviews_count.to_i > 25
       good_books.push( book )
     else
       bad_books.push( book )
@@ -205,8 +208,8 @@ if __FILE__ == $0
   end
 
   # Now write out our results
-  sphere.write_books( good_books.sort { |a,b| a.average_rating <=> b.average_rating }, 'books.csv' )
-  sphere.write_books( bad_books.sort { |a,b| a.average_rating <=> b.average_rating }, 'rejected_books.csv' )
+  sphere.write_books( good_books.sort { |a,b| b.average_rating.to_f <=> a.average_rating.to_f }, 'books.csv' )
+  sphere.write_books( bad_books.sort { |a,b| b.average_rating.to_f <=> b.average_rating.to_f }, 'rejected_books.csv' )
   puts "#{good_books.length} books written"
   puts "#{bad_books.length} books rejected"  
 end

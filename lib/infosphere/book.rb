@@ -39,10 +39,12 @@ class Book
     @rating = nil
   end
   
+  # All comparisons will be based on the ASIN
   def hash
     @data[:asin].to_s.hash
   end
   
+  # Ditto. ASIN comparison
   def eql?( other )
     asin.to_s == other.asin.to_s
   end
@@ -55,21 +57,22 @@ class Book
     "#{@data[:title]} - #{@data[:author]} [#{@data[:asin]}]"
   end
   
+  # Not so pretty.. but meh.
   def method_missing( method, *args )
     @data[ method ] || ( @rating ? @rating[ method.to_s ] : nil )
   end
   
   # {
-  # work_text_reviews_count: 73
-  # text_reviews_count: 3
-  # average_rating: "3.70"
-  # work_ratings_count: 585
-  # isbn13: "9780471237129"
-  # isbn: "0471237124"
-  # id: 1005528
-  # work_reviews_count: 1107
-  # reviews_count: 87
-  # ratings_count: 28
+  #   work_text_reviews_count: 73
+  #   text_reviews_count: 3
+  #   average_rating: "3.70"
+  #   work_ratings_count: 585
+  #   isbn13: "9780471237129"
+  #   isbn: "0471237124"
+  #   id: 1005528
+  #   work_reviews_count: 1107
+  #   reviews_count: 87
+  #   ratings_count: 28
   # }
   def add_rating( rating )
     @rating = rating
